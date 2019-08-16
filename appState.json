@@ -28,16 +28,13 @@
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
-          "layers": [
-            "arn:aws:lambda:us-east-2:123456789012:layer:my-layer:3",
-            "arn:aws:lambda:us-east-2:123456789012:layer:my-layer:3"
-          ],
+          "layers": [],
           "vpc": "vpc-ee1ef195",
           "subNets": [
             "subnet-993076a6"
           ],
           "secGroups": [
-            "sg-3e5fe749"
+            "sg-00c0e38b3ca019399"
           ]
         },
         "triggers": [],
@@ -46,16 +43,16 @@
           "Statement": [
             {
               "Effect": "Allow",
-              "Resource": "arn:aws:appstream:us-east-1::/",
+              "Resource": "arn:aws:sagemaker:us-east-1::/",
               "Action": [
                 "*"
               ]
             },
             {
               "Effect": "Allow",
-              "Resource": "arn:aws:artifact::hiru",
+              "Resource": "arn:aws:sns:us-east-1::",
               "Action": [
-                "artifact:Get"
+                "*"
               ]
             }
           ]
@@ -125,6 +122,11 @@
           "name": "mysql",
           "version": "2.17.1",
           "language": "javascript"
+        },
+        "math": {
+          "name": "math",
+          "version": "0.0.3",
+          "language": "javascript"
         }
       }
     }
@@ -136,7 +138,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565951198558
+    "lastSave": 1565951261766
   },
   "VCS_STATE": {
     "provider": "GitHub",
