@@ -121,11 +121,6 @@
           "dev": false,
           "notRemovable": false
         },
-        "mysql": {
-          "name": "mysql",
-          "version": "2.17.1",
-          "language": "javascript"
-        },
         "math": {
           "name": "math",
           "version": "0.0.3",
@@ -141,7 +136,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565951363950
+    "lastSave": 1565951422384
   },
   "VCS_STATE": {
     "provider": "GitHub",
