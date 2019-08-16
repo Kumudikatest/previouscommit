@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "63dd7b76-de90-4e6a-8f44-e633ef828571": {
+        "id": "63dd7b76-de90-4e6a-8f44-e633ef828571",
+        "parent": null,
+        "name": "previouscommit",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "12479b8a-9f1d-4146-adcb-46c93b78b530"
+        ],
+        "isRemovable": false,
+        "filePath": "previouscommit"
+      },
+      "12479b8a-9f1d-4146-adcb-46c93b78b530": {
+        "id": "12479b8a-9f1d-4146-adcb-46c93b78b530",
+        "parent": "63dd7b76-de90-4e6a-8f44-e633ef828571",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "previouscommit/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "63dd7b76-de90-4e6a-8f44-e633ef828571",
+    "openFiles": [
+      "12479b8a-9f1d-4146-adcb-46c93b78b530"
+    ],
+    "currentFileId": "12479b8a-9f1d-4146-adcb-46c93b78b530",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "previouscommit",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1565945132801
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "previouscommit",
+      "url": "https://github.com/Kumudikatest/previouscommit"
+    }
+  }
+}
