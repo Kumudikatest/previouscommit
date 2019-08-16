@@ -30,7 +30,19 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "customSecurityPolicy": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Resource": "arn:aws:appstream:us-east-1::/",
+              "Action": [
+                "*"
+              ]
+            }
+          ]
+        }
       }
     },
     "deletedFiles": [],
@@ -102,7 +114,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565946040273
+    "lastSave": 1565948117070
   },
   "VCS_STATE": {
     "provider": "GitHub",
