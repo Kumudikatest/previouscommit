@@ -59,6 +59,15 @@
               ]
             }
           ]
+        },
+        "testCases": {
+          "f2ef612d-6de5-450c-a5e7-ca09c0f6eff6": {
+            "id": "f2ef612d-6de5-450c-a5e7-ca09c0f6eff6",
+            "name": "Test event",
+            "functionId": "12479b8a-9f1d-4146-adcb-46c93b78b530",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
         }
       }
     },
@@ -136,7 +145,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565951422384
+    "lastSave": 1565952542926
   },
   "VCS_STATE": {
     "provider": "GitHub",
